@@ -213,16 +213,16 @@ var {
 }
 .box_contact .desc_box {
     margin-top: 18px;
-    font-size: 18px;
-    line-height: 27px;
+    font-size: 25px;
+    line-height: 35px;
 }
 .box_contact .link_contact {
     display: block;
-    width: 120px;
-    height: 28px;
+    width: 150px;
+    height: 50px;
     margin: 49px auto 0;
     border-radius: 32px;
-    font-size: 12px;
+    font-size: 17px;
     font-family: AppleSDGothicNeo-Regular, "Malgun Gothic";
     background-color: #27292a;
     color: white;
@@ -242,7 +242,7 @@ var {
 }
 .box_send .img_security {
     width: 250px;
-    height: 500px;
+    height: 276px;
     background-position: -260px -150px;
 }
 dl,
