@@ -29,7 +29,7 @@ ul {
     padding: 0;
 }
 body {
-    min-width: 1204px;
+    min-width: 600px;
     background: rgb(247, 247, 247);
 }
 body,
@@ -49,7 +49,7 @@ th {
     top: 0;
     left: 0;
     right: 0;
-    width: 1204px;
+    width: 600px;
     margin: 0 auto;
 }
 a {
@@ -111,7 +111,7 @@ img {
 .box_intro {
     overflow: hidden;
     position: relative;
-    width: 1052px;
+    width: 600px;
     margin: 0 auto;
     padding: 80px 76px 98px;
     background-color: rgb(255, 255, 255);
@@ -166,14 +166,14 @@ img {
 }
 .security_contact {
     overflow: hidden;
-    width: 1204px;
+    width: 600px;
     margin: 0 auto;
     padding-top: 190px;
 }
 .security_contact .tit_contact {
     display: block;
     margin-bottom: 54px;
-    font-weight: 300;
+    font-weight: 600;
     font-size: 54px;
     line-height: 64px;
     font-family: "Spoqa Han Sans";
@@ -194,7 +194,7 @@ img {
 }
 .box_contact .tit_box {
     margin-top: 20px;
-    font-weight: 300;
+    font-weight: 600;
     font-size: 38px;
     line-height: 40px;
 }
@@ -222,7 +222,7 @@ var {
     height: 28px;
     margin: 49px auto 0;
     border-radius: 32px;
-    font-size: 10px;
+    font-size: 12px;
     font-family: AppleSDGothicNeo-Regular, "Malgun Gothic";
     background-color: #27292a;
     color: white;
@@ -242,7 +242,7 @@ var {
 }
 .box_send .img_security {
     width: 250px;
-    height: 276px;
+    height: 500px;
     background-position: -260px -150px;
 }
 dl,
