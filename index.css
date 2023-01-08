@@ -1,0 +1,515 @@
+blockquote,
+body,
+button,
+code,
+dd,
+div,
+dl,
+dt,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+legend,
+li,
+ol,
+p,
+pre,
+select,
+td,
+textarea,
+th,
+ul {
+    margin: 0;
+    padding: 0;
+}
+body {
+    min-width: 1204px;
+    background: rgb(247, 247, 247);
+}
+body,
+button,
+input,
+select,
+td,
+textarea,
+th {
+    font-size: 12px;
+    line-height: 1.5;
+    font-family: Kakao, AppleSDGothicNeo-Regular, "Malgun Gothic", "맑은 고딕", dotum, 돋움, sans-serif;
+    color: rgb(0, 0, 0);
+}
+.k_head {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 1204px;
+    margin: 0 auto;
+}
+a {
+    color: rgb(30, 30, 30);
+    text-decoration: none;
+}
+a:active,
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    background-color: transparent;
+}
+.k_head .link_logo {
+    display: block;
+    width: 55px;
+    height: 17px;
+    padding: 36px;
+    margin-left: 116px;
+}
+fieldset,
+img {
+    border: 0 none;
+}
+.k_head .link_logo .img_logo {
+    display: block;
+    width: 55px;
+    height: 17px;
+}
+.hide {
+    display: none;
+}
+.cont_security {
+    padding-bottom: 78px;
+    font-weight: 300;
+    text-align: center;
+}
+.security_intro {
+    height: 872px;
+    padding-top: 152px;
+    background-color: #27292a
+}
+.security_intro .bg_security {
+    height: 508px;
+    background: url("https://t1.kakaocdn.net/cs_pay_cdn/cs/images/safety_p/m320/bg_security.png") 50% 100% no-repeat;
+}
+.security_intro .tit_security {
+    font-weight: 300;
+    font-size: 82px;
+    line-height: 90px;
+    font-family: "Spoqa Han Sans";
+    letter-spacing: -0.05em;
+}
+.security_intro .desc_security {
+    margin-top: 24px;
+    font-size: 20px;
+    line-height: 29px;
+}
+.box_intro {
+    overflow: hidden;
+    position: relative;
+    width: 1052px;
+    margin: 0 auto;
+    padding: 80px 76px 98px;
+    background-color: rgb(255, 255, 255);
+}
+.box_intro::after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 2px;
+    height: 238px;
+    margin: auto;
+    background-color: rgb(211, 211, 211);
+    content: "";
+}
+.box_intro .item_intro {
+    float: left;
+    width: 526px;
+}
+.img_security {
+    display: inline-block;
+    overflow: hidden;
+    background: url("https://t1.kakaocdn.net/cs_pay_cdn/cs/images/safety_p/m320/img_security.png") no-repeat;
+    line-height: 0;
+    text-indent: -9999px;
+    vertical-align: top;
+}
+.box_intro .item_intro .img_security {
+    width: 250px;
+    height: 145px;
+    background-position: -260px 0;
+}
+.box_intro .item_intro .img_intro1 {
+    background-position: 0 0;
+}
+.box_intro .item_intro .tit_intro {
+    display: block;
+    margin-top: 12px;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 40px;
+    letter-spacing: -0.05em;
+}
+.box_intro .item_intro .desc_intro {
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 26px;
+}
+.box_intro .item_intro .img_intro2 {
+    background-position: -260px 0;
+}
+.security_contact {
+    overflow: hidden;
+    width: 1204px;
+    margin: 0 auto;
+    padding-top: 190px;
+}
+.security_contact .tit_contact {
+    display: block;
+    margin-bottom: 54px;
+    font-weight: 300;
+    font-size: 54px;
+    line-height: 64px;
+    font-family: "Spoqa Han Sans";
+    letter-spacing: -0.05em;
+}
+.box_contact {
+    margin-bottom: 10px;
+    padding: 96px 0 90px;
+    background-color: rgb(255, 255, 255);
+}
+.box_lost {
+    padding-bottom: 54px;
+}
+.box_lost .img_security {
+    width: 250px;
+    height: 250px;
+    background-position: 0 -150px;
+}
+.box_contact .tit_box {
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 40px;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+var {
+    font-style: normal;
+    font-weight: normal;
+}
+.box_contact .tit_box em {
+    font-weight: normal;
+}
+.box_contact .desc_box {
+    margin-top: 18px;
+    font-size: 18px;
+    line-height: 27px;
+}
+.box_contact .link_contact {
+    display: block;
+    width: 120px;
+    height: 28px;
+    margin: 49px auto 0;
+    border-radius: 32px;
+    font-size: 10px;
+    font-family: AppleSDGothicNeo-Regular, "Malgun Gothic";
+    background-color: #27292a;
+    color: white;
+}
+.box_contact .link_contact:hover {
+    text-decoration: none;
+}
+.box_contact .txt_contact {
+    display: inline-block;
+    margin-top: 12px;
+    font-size: 18px;
+    line-height: 20px;
+    vertical-align: top;
+}
+.box_send {
+    padding-top: 115px;
+}
+.box_send .img_security {
+    width: 250px;
+    height: 276px;
+    background-position: -260px -150px;
+}
+dl,
+li,
+menu,
+ol,
+ul {
+    list-style: none;
+}
+.box_send .list_program {
+    position: relative;
+    width: 988px;
+    margin: 67px auto 0;
+}
+.box_send .list_program::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 2px;
+    height: 157px;
+    margin: 0 auto;
+    background-color: rgb(233, 233, 233);
+    content: "";
+}
+.box_send .list_program::after {
+    display: block;
+    visibility: hidden;
+    height: 0;
+    font-size: 0;
+    clear: both;
+    content: "";
+}
+.box_send .list_program li {
+    float: left;
+    width: 494px;
+    font-size: 18px;
+    line-height: 25px;
+}
+.box_send .list_program .tit_program {
+    display: block;
+    font-weight: normal;
+}
+.box_send .list_program .link_contact {
+    margin-top: 45px;
+}
+.box_buy .img_security {
+    width: 250px;
+    height: 250px;
+    background-position: 0 -430px;
+}
+.box_contact .desc_box em {
+    font-weight: normal;
+}
+.box_copy {
+    padding-top: 106px;
+}
+.box_copy .img_security {
+    width: 237px;
+    height: 231px;
+    background-position: -270px -430px;
+}
+.box_copy .tit_box {
+    margin-top: 29px;
+}
+.security_guide {
+    overflow: hidden;
+    position: relative;
+    width: 1032px;
+    margin: 0 auto;
+    padding: 83px 86px 87px;
+    background-color: rgb(255, 199, 0);
+}
+.security_guide::after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 2px;
+    height: 107px;
+    margin: auto;
+    background-color: rgb(235, 172, 7);
+    content: "";
+}
+.security_guide .box_guide {
+    float: left;
+    width: 516px;
+}
+.security_guide .box_guide .desc_guide {
+    font-size: 26px;
+}
+.security_guide .box_guide .link_guide {
+    display: block;
+    width: 190px;
+    height: 64px;
+    margin: 16px auto 0;
+    border: 1px solid rgb(214, 146, 13);
+    border-radius: 32px;
+    font-size: 20px;
+    line-height: 66px;
+    font-family: AppleSDGothicNeo-Regular, "Malgun Gothic";
+}
+.security_guide .box_guide .link_guide:hover {
+    text-decoration: none;
+}
+.k_foot {
+    background-color: rgb(240, 240, 240);
+}
+.k_foot .inner_foot {
+    width: 900px;
+    margin: 0 auto;
+    padding: 50px 152px 82px;
+}
+.screen_out {
+    overflow: hidden;
+    position: absolute;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    text-indent: -9999px;
+}
+.k_foot .txt_copyright {
+    display: block;
+    margin-top: 20px;
+    font-size: 14px;
+    color: rgb(153, 153, 153);
+}
+.k_foot .addr_pay {
+    overflow: hidden;
+    margin-top: 4px;
+    line-height: 20px;
+}
+.k_foot .addr_pay .txt_addr {
+    float: left;
+    font-size: 12px;
+    color: rgb(85, 85, 85);
+}
+.k_foot .addr_pay .txt_bar {
+    float: left;
+    margin: 0 7px;
+    font-size: 9px;
+    vertical-align: top;
+}
+.k_foot .addr_pay .mid {
+    margin-left: 14px;
+}
+.security_layer {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(30, 30, 30, 0.1);
+}
+.inner_security_layer {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 900px;
+    height: 495px;
+    margin: auto;
+    padding: 80px 0 90px;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+.inner_security_layer .tit_layer {
+    display: block;
+    font-weight: 300;
+    font-size: 42px;
+    line-height: 64px;
+}
+.inner_security_layer .layer_body .img_security {
+    width: 396px;
+    height: 387px;
+    margin: 30px auto 0;
+    background-position: 0 -690px;
+}
+button,
+input,
+select,
+textarea {
+    vertical-align: middle;
+}
+button {
+    border: 0 none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.inner_security_layer .btn_close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 30px;
+}
+.ico_security {
+    display: inline-block;
+    overflow: hidden;
+    background: url("https://t1.kakaocdn.net/cs_pay_cdn/cs/images/safety_p/m320/ico_security.png") no-repeat;
+    line-height: 0;
+    text-indent: -9999px;
+    vertical-align: top;
+}
+.inner_security_layer .btn_close .ico_security {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-position: 0 0;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), not all, only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+    .security_intro .bg_security {
+        background-image: url("https://t1.kakaocdn.net/cs_pay_cdn/cs/images/safety_p/m640/bg_security.png");
+        background-size: 780px 320px;
+    }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), not all, only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+    .img_security {
+        background-image: url("https://t1.kakaocdn.net/cs_pay_cdn/cs/images/safety_p/m640/img_security.png");
+        background-size: 520px 1090px;
+    }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), not all, only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+    .img_security {
+        background-image: url("https://t1.kakaocdn.net/cs_pay_cdn/cs/images/safety_p/m640/img_security.png");
+        background-size: 520px 1090px;
+    }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), not all, only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+    .img_security {
+        background-image: url("https://t1.kakaocdn.net/cs_pay_cdn/cs/images/safety_p/m640/img_security.png");
+        background-size: 520px 1090px;
+    }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), not all, only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+    .img_security {
+        background-image: url("https://t1.kakaocdn.net/cs_pay_cdn/cs/images/safety_p/m640/img_security.png");
+        background-size: 520px 1090px;
+    }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), not all, only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+    .img_security {
+        background-image: url("https://t1.kakaocdn.net/cs_pay_cdn/cs/images/safety_p/m640/img_security.png");
+        background-size: 520px 1090px;
+    }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), not all, only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+    .img_security {
+        background-image: url("https://t1.kakaocdn.net/cs_pay_cdn/cs/images/safety_p/m640/img_security.png");
+        background-size: 520px 1090px;
+    }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), not all, only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+    .img_security {
+        background-image: url("https://t1.kakaocdn.net/cs_pay_cdn/cs/images/safety_p/m640/img_security.png");
+        background-size: 520px 1090px;
+    }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), not all, only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+    .ico_security {
+        background-image: url("https://t1.kakaocdn.net/cs_pay_cdn/cs/images/safety_p/m640/ico_security.png");
+        background-size: 50px 50px;
+    }
+}
